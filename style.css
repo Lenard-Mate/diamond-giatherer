@@ -1,0 +1,19 @@
+.color{
+
+	color:green; 
+	font-size: 25px;
+}
+
+#canvas{
+
+	width: 400px;
+	height: 600px;
+	border:1px solid black;
+
+}
+
+img{
+
+	width: 800px;
+	height: 500px;
+}
