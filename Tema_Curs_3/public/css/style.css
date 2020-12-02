@@ -1,0 +1,54 @@
+.color{
+
+	color:green; 
+	font-size: 25px;
+
+}
+
+#canvasId{
+
+	border:1px solid black;
+
+}
+
+img{
+
+	width: 800px;
+	height: 500px;
+	
+}
+
+.display-none{
+	display: none;
+
+}
+.redColor{
+	
+	color: red;
+
+}
+.blueColor{
+	
+	color: blue;
+
+}
+.greenColor{
+	
+	color: green;
+
+}
+#chat-container{
+
+	margin-top: 20px;
+	
+
+}
+#caht-messages{
+
+	border: 1px solid black;
+	width: 30%;
+	height: 500px;
+	margin-bottom: 20px;
+	padding: 5px;
+
+}

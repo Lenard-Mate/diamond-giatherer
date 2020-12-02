@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Pagina mea</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="/socket.io/socket.io.js" type="module"></script>
+	<script src="js/mainJs.js" type="module"></script>
+	
+
+</head>
+
+<body>
+	
+	
+	<div id="join-chat">
+		<input type="text" id='user-name' placeholder="Name">
+		<button id='join-chat-button'>join-chat</button>
+		<p id='user-name-is-missing' class="display-none">Please enter user name to join chat!</p>
+	</div>
+	<div id='chat-container' class="display-none">
+		<div id='caht-messages'>
+
+		</div>
+		<input type="text" id='message' placeholder="Your message">
+		<button id='send-message-button'>Send!</button><a> Numarul de utilizatori activi: </a><a id="user-number"></a>
+		<br>
+		<input type="radio" id="red" name="collor" value="red">
+		<label for="red">Red</label><br>
+		<input type="radio" id="blue" name="collor" value="blue">
+		<label for="blue">Blue</label><br>
+		<input type="radio" id="green" name="collor" value="Green">
+		<label for="Green">Green</label>
+	</div>
+	<div id="counter-container">
+		<div id="showCounter">
+			<p id="insertCounter"></p>
+		</div>
+		<button id='button-counter'>Counter</button>
+	</div>
+	<div id='create-game-container'>
+	<input id='game-name-input' type='text' placeholder='Enter the game name'>
+	<button id='create-game-button'>Create Game!</button>
+	<p id='game-name-missing' class="display-none">Please enter user name to join chat!</p>
+	</div>
+	<div id='game-container' class="display-none">
+		<canvas id="canvasId" width="960px" height="460px"></canvas><br>
+	</div>
+
+</body>
+
+</html>
