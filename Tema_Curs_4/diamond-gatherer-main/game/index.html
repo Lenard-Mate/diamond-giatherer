@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="/socket.io/socket.io.js" type="module"></script>
+        <script src="js/main.js" type="module"></script>
+
+        <!-- <script src="js/mostenire.js" type="module"></script> -->
+    </head>
+
+    <body>
+        <!-- IMAGES -->
+        <img src="assets/map.png" class="display-none" id="map-image">
+        <img src="assets/space-ranger-player.png" class="display-none" id="space-ranger"/>
+        <img src="assets/pink-lady-player.png" class="display-none" id="pink-lady"/>
+
+        <!-- MENU -->
+        <div id="menu">
+           
+            <div id="create-game-container">
+                <input id="game-name-input" type="text" placeholder="Enter the game name" />
+                <button id="create-game-button">Create Game!</button>
+                <p id="game-name-missing" class="display-none">Please enter a name to create a new game!</p>
+            </div>
+            <div id="game-list">
+    
+            </div>
+        </div>
+
+        <!-- CHAT -->
+        <div id="chat-container" class="display-none">
+            <div id="chat-messages">
+
+            </div>
+            <input type="text" id="message" placeholder="Your message"/>
+            <button id="send-message-button">Send!</button>
+            <br>
+            <button id="leave-chat-button">Leave chat!</button>
+        </div>
+
+        <!-- GAME -->
+        <div id="game-container" class="display-none">
+            <canvas id="game-canvas" width="960" height="640"></canvas>
+        </div>
+    </body>
+</html>

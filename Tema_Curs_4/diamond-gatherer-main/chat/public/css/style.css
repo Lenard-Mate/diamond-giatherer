@@ -1,0 +1,47 @@
+/* p {
+    background-color: red;
+}
+
+div {
+    border: 1px solid black;
+}
+
+canvas {
+    border: 2px solid blue;
+} */
+
+.display-none {
+    display: none;
+}
+
+#chat-container {
+    margin-top: 10px;
+}
+
+#chat-messages {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#leave-chat-button {
+    margin-top: 10px;
+}
+
+#create-game-container {
+    margin-top: 10px;
+}
+
+#game-canvas {
+    border: 1px solid black;
+}
+
+.game-element {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

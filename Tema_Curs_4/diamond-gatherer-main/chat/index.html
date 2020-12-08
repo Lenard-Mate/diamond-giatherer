@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="/socket.io/socket.io.js" type="module"></script>
+        <script src="js/main.js" type="module"></script>
+        <!-- <script src="js/mostenire.js" type="module"></script> -->
+    </head>
+
+    <body>
+        <!-- IMAGES -->
+   
+
+        <!-- MENU -->
+        <div id="menu">
+            <div id="join-chat">
+                <input type="text" id="user-name-input" placeholder="Enter your name"/>
+                <button id="join-chat-button">Join Chat</button>
+                <p id="user-name-missing" class="display-none">Please enter user name to join chat!</p>
+            </div>
+        
+        
+        </div>
+
+        <!-- CHAT -->
+        <div id="chat-container" class="display-none">
+            <div id="chat-messages">
+
+            </div>
+            <input type="text" id="message" placeholder="Your message"/>
+            <button id="send-message-button">Send!</button>
+            <br>
+            <button id="leave-chat-button">Leave chat!</button>
+        </div>
+
+        <!-- GAME -->
+       
+    </body>
+</html>

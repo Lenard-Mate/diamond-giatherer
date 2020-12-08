@@ -1,0 +1,24 @@
+{
+  "name": "diamond-gatherer",
+  "version": "1.0.0",
+  "description": "# Curs 1 - Creare fisier html - Creare fisier css - Creare fisier js - Link intre html, css, js - How to use git.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei-rus/diamond-gatherer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrei-rus/diamond-gatherer/issues"
+  },
+  "homepage": "https://github.com/andrei-rus/diamond-gatherer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  }
+}
